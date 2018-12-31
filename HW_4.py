@@ -6,6 +6,9 @@ import matplotlib.pyplot as plt
 import matplotlib.ticker as ticker
 import matplotlib.colors as colors
 
+plt.cla()
+plt.clf()
+plt.close()
 
 I0 = const.pi/(2*2**(1/2)*const.mu_0)
 W = 1
